@@ -1,13 +1,9 @@
 package com.utube;
 
-import java.lang.reflect.Array;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -21,6 +17,13 @@ public class Main {
         boolean methodeForeach = false;
         boolean formatDate = true;
         List<Integer> listeAStreamer = Arrays.asList(1, 23, 54, 87, 96, 499, 71);
+        /*
+        API BDM
+        GET /bonita/API/bdm/businessData/com.example.User?q=find&p=0&c=10
+        /API/bdm/businessData/com.company.model.Client/2/industry
+        http://localhost:8080/bonita/API/bdm/businessData/DI
+        http://localhost:8080/bonita/API/bdm/DIUtilisateurs
+         */
 
         // Opération intermédiaire map
         if (methodeMap) {
